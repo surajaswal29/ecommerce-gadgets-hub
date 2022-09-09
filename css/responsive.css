@@ -1,0 +1,620 @@
+@media(max-width:476px){
+    .top-gully-nav {
+        padding: 6px 0px;
+        flex-wrap: nowrap;
+    }
+    .kotdhar-logo {
+        padding: 2px 14px;
+    }
+    .kotdhar-logo .img-fluid{
+        width:36px;
+        height: 36px;
+    }
+    .search-form-top {
+        display: inline-block;
+        /* background-color: teal; */
+        z-index: 1000;
+        position: absolute;
+        top: 15%;
+        right: 80%;
+        /* left: 0%; */
+        width: 160px;
+    }
+    @media(min-width:365px){
+        .search-form-top{
+            width: 206px;
+            right: 82%;
+        }
+    }
+    .search-form-top input::placeholder{
+        font-size: 14px;
+        color: rgb(138, 136, 137);
+    }
+    .search-form-top .btn{
+        height: 34px !important;
+        top: -1%;
+        border: 0px solid transparent;
+    }
+    .menu-button{
+        display: block;
+        font-size: 24px;
+        position: absolute;
+        z-index: 1000;
+        top: 22%;
+        left:70%;
+    }
+    .kotdhar-nav .nav{
+        padding: 15px 0px;
+        display: none;
+        justify-content: flex-start;
+    }
+    .search-form-top .form-control{
+        height: 33px !important;
+    }
+    #search1{
+        display: none;
+    }
+    .mobile-nav{
+        position: absolute;
+        width: 160px;
+        top:100%;
+        z-index: 1000;
+        flex-direction: column;
+        border: 1px solid rgb(218, 217, 217);
+        left: 0%;
+        /* right: 10%; */
+        /* height: 330px; */
+        background: rgb(248, 246, 246);
+        display: none;
+    }
+    .heading-9 h1{
+        font-size: 30px;
+    }
+    .search-12 h1{
+        font-size: 25px !important;
+    }
+    @media(min-width:365px){
+        .mobile-nav{
+            position: absolute;
+            width: 198px;
+            top:100%;
+            z-index: 1000;
+            flex-direction: column;
+            border: 1px solid rgb(218, 217, 217);
+            /* left: 60%; */
+            /* right: 10%; */
+            /* height: 330px; */
+            background: rgb(248, 246, 246);
+            display: none;
+        }
+    }
+    .login-mobile{
+        display: none;
+    }
+    .mobile-log{
+        display: block;
+        width: 150px !important;
+    }
+    .mobile-log a{
+        margin-left: 1rem !important;
+    }
+    .mobile-log a:last-of-type{
+        margin-bottom: 0.1rem !important;
+    }
+    .sport-dropdown{
+        z-index: 1000;
+        left: -30%;
+    }
+    .main-wrapper {
+        position: relative;
+        /* max-width: 100%; */
+        height: 50vh;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.767) 50%, rgba(19, 18, 18, 0.432)),url(../images/uk-school.png);
+        /* background-image: url(../images/cricket.jpg); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-wrapper .row:first-of-type{
+        padding: 10px 15px;
+        /* background: rgb(255, 255, 255); */
+    }
+    .owl-dots{
+        position: absolute;
+        top:88%;
+        left:32%;
+    }
+    .main-wrapper-1 .row:first-of-type{
+        padding: 10px 15px;
+        /* background: rgb(255, 255, 255); */
+    }
+    .main-wrapper-2 .row:first-of-type{
+        padding: 10px 15px;
+        /* background: rgb(255, 255, 255); */
+    }
+    .main-wrapper-3 .row:first-of-type{
+        padding: 10px 15px;
+        /* background: rgb(255, 255, 255); */
+    }
+    .heading{
+        margin-top: 5px;
+        padding:80px 14px;
+    }
+    .heading h1{
+        color: rgb(248, 247, 245);
+        font-size: 38px;
+    }
+    .heading h2{
+        color: rgb(241, 241, 239);
+        font-size: 25px;
+    }
+    .heading h4{
+        color:#fff;
+        font-size: 30px;
+    }
+    .heading p{
+        color: cornsilk;
+        font-size: 12px;
+    }
+    .heading-1{
+        padding: 20px 10px;
+        margin-left: 20px;
+    }
+    .heading-1 h1{
+        color: rgb(23, 25, 26);
+        margin: 0rem;
+        font-size: 40px;
+    }
+    .heading-1 hr{
+        width: 180px;
+        height: 1px;
+        background: rgb(199, 57, 57);
+        border: 1px solid rgb(192, 53, 53);
+    }
+    .gallery-img {
+        /* border: 2px solid #c4c2b7; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .atal-yojana-mobile{
+        padding: 20px;
+    }
+    .atal-yojana-mobile h1{
+        text-align: center;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    .atal-yojana-mobile p{
+        text-align: justify;
+    }
+    .atal-yojana li{
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .second_wrap {
+        position: relative;
+        /* max-width: 100%; */
+        height: 40vh;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.884) 50%, rgba(31, 30, 30, 0.432)),url(../images/school.jpg);
+        /* background-image: url(../images/cricket.jpg); */
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-tournament-1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+        padding: 3rem 0rem;
+    }
+    .section-tournament-1 h1 img{
+        height:40px; width:48px; margin-top:6px;
+    }
+    .section-tournament{
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        padding: 3rem 0rem;
+    }
+    .section-tournament-1 h1{
+        /* border-bottom:2px solid rgb(207, 58, 58) ; */
+        margin: auto;
+        display: block;
+        padding-left: 1rem;
+        font-size: 30px;
+    }
+    .section-tournament-1 hr{
+        border:2px solid rgb(221, 86, 86) ;
+        margin-left: 6px;
+        border-radius: 5px;
+        width: 150px;
+    }
+    .tournament-box{
+        margin: auto;
+        margin-bottom: 4rem;
+        border-radius: 5px;
+        /* padding: 1rem 2rem; */
+        height: 430px;
+        width:270px;
+        border: 1px solid rgb(209, 208, 208);
+    }
+    .academy-box{
+        /* padding:1rem; */
+        background-color: rgb(235, 62, 114);
+    }
+    .academy-box .row img{
+        image-rendering: crisp-edges;
+        height:200px;
+        width: 100%;
+    }
+    .tournament-details{
+        padding: 20px;
+    }
+    .tournament-details .nav{
+        /* padding-top: 40px; */
+        justify-content: center;
+    }
+    .tournament-header-20{
+        height:140px;
+    }
+    .tournament-details h5{
+        font-size: 18px;
+    }
+    .tournament-details span{
+        font-size: 14px;
+    }
+    .search-bar{
+        /* border: 1px solid rgb(224, 222, 222); */
+        margin-left: 0.2rem;
+        margin-top: 5rem;
+    }
+    .search-bar .search-box{
+        border-radius: 4px;
+        margin: auto;
+        width: 280px !important;
+        padding: 20px 15px;
+        border: 1px solid rgb(151, 149, 149);
+    }
+    .search-bar .search-box .btn{
+        /* border-radius: 30px; */
+        color: #fff;
+    }
+    .upcoming-match{
+        margin: auto;
+        margin-top: 2rem;
+        padding: 5px 6px;
+        width: 280px !important;
+        /* background: #000; */
+    }
+    .upcoming-match h1{
+        margin: 8px auto;
+        border: 1px solid rgb(170, 168, 168);
+        padding: 10px 8px;
+        width: 260px !important;
+        font-size: 30px;
+    }
+    .upcoming-match-wrap{
+        margin: auto;
+        display: block;
+        width: 260px !important;
+        text-decoration: none;
+        color: #000;
+        border: 1px solid rgba(202, 200, 200, 0.842);
+        /* margin: 1rem 0rem; */
+        /* height: 200px; */
+    }
+    .search-bar .p-3 {
+        padding: 0rem!important;
+    }
+    .upcoming-match-wrap:hover{
+        color: #000;
+        /* opacity: 0.8; */
+        background: rgba(51, 211, 203, 0.295);
+        border: 1px solid rgb(206, 204, 204);
+    }
+    .upcoming-img{
+        background-color: rgb(50, 206, 206);
+        /* position: relative; */
+        height: 150px;
+    }
+    .upcoming-img .row{
+        /* width: 80px; */
+        height: 150px;
+    }
+    .upcoming-img .row img{
+        /* width: 60px; */
+        height: 150px;
+    }
+    .upcoming-heading{
+        padding:12px 10px;
+    }
+    .upcoming-heading h5{
+        color: rgb(212, 44, 44);
+        font-size: 14px;
+    }
+    .upcoming-heading h5 span{
+        color: black;
+        font-size: 12px;
+    }
+    /* responsive subsection */
+    .sub-section{
+        margin-top: 4rem !important;
+        width: 100vw !important;
+        background: rgb(36, 33, 33);
+    }
+    .sub-section .sub-wrap{
+        padding: 40px 10px;
+        text-align: center;
+        color: #fff;
+    }
+    .sub-wrap h5{
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    .sub-wrap h6{
+        margin-top:5px ;
+        font-weight: 400;
+        color: rgb(200, 201, 202);
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .input-box{
+        margin-top:15px;
+        background: rgba(90, 89, 89, 0.945);
+        width:200px;
+        font-size: 14px;
+        color: #fff;
+        padding: 0px 10px;
+        height: 50px;
+        border:1px solid rgb(95, 94, 94);
+    }
+    .input-box:focus{
+        outline: none;
+        border:1px solid rgb(95, 94, 94);
+    }
+    .input-box::placeholder{
+        letter-spacing: 1px;
+        color: rgb(202, 199, 199);
+    }
+    .sub-button{
+        cursor: pointer;
+        margin: 10px;
+        font-size: 14px;
+        border: 2px solid rgb(216, 215, 215);
+        color: rgb(219, 217, 217);
+        background: inherit;
+        letter-spacing: 2px;
+        padding: 12px 40px;
+    }
+    .sub-button:hover{
+        background:rgb(54, 54, 54);
+    }
+    .sub-wrap textarea{
+        height: 80px;
+        resize: none;
+    }
+    .footer{
+        width: 100vw !important;
+        background-color: rgb(27, 26, 26);
+    }
+    .footer .col-md-3{
+        padding: 40px 50px;
+    }
+    .about-img ,img{
+        height: 90px;
+        width: 90px;
+    }
+    .about-para p{
+        text-align: justify;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+    .about-para .nav img{
+        height: 30px;
+        width:30px
+    }
+    .imp-link hr{
+        border-bottom: 2px solid rgb(231, 230, 230);
+        width: 200px;
+    }
+    .imp-link .nav{
+        color: rgb(247, 247, 247);
+        flex-direction: column;
+    }
+    .imp-link .nav a{
+        font-weight: 500;
+        padding:6px 5px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .contact-us-1 hr{
+        border-bottom: 2px solid rgb(248, 246, 246);
+        width: 150px;
+    }
+    .tourn-1 .p-3 {
+        padding: 0rem!important;
+    }
+    .contact-us .m-2 {
+        margin: auto !important;
+    }
+    .contact-us .ml-1, .mx-1 {
+        margin-left: auto !important;
+    }
+    .contact-us {
+        margin: 5rem 0rem !important;
+    }
+    .contact-us .col-md-4 , .contact-us .col-md-3{
+        width: 300px;
+        margin: auto;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        background-color: transparent;
+    }
+    .contact-us .col-md-4:hover , .contact-us .col-md-3:hover{
+        width: 300px;
+        margin: auto;
+        border-radius: 5px;
+        color: rgb(17, 16, 16);
+        font-weight: 500;
+        background-color: transparent;
+    }
+    .contact-us-1 .nav{
+        color: rgb(252, 252, 252);
+        flex-direction: column;
+    }
+    .contact-us-1 .nav a{
+        font-weight: 500;
+        padding:6px 5px;
+        color: rgb(247, 245, 245);
+        text-decoration: none;
+    }
+    .contact-us-1 .nav a i{
+        font-size: 24px;
+    }
+    .google-map hr{
+        border-bottom: 2px solid rgb(235, 233, 233);
+        width: 160px;
+    }
+    .google-map iframe{
+        /* border: 1px solid rgb(189, 184, 184); */
+        width:250px;
+        height: 330px;
+    }
+    .copyright{
+        padding: 8px;
+        font-size: 14px;
+    }
+    .about{
+        padding:4rem 1rem ;
+    }
+    .about-img-1{
+        margin-top: 1rem;
+        /* border: 1px solid #000; */
+        height: 200px;
+        position: relative;
+    }
+    .about-img-1 img{
+        border: 3px solid rgb(134, 132, 132);
+        height: 100%;
+        width: 100%;
+    }
+    .about-header-1{
+        text-align: justify;
+        margin-top:1rem;
+        padding: 10px 20px;
+    }
+    .about-header-1 h4{
+        text-transform: capitalize;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .about-header-1 p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .about-header-1 hr{
+        color:crimson;
+        border:2px solid rgb(221, 86, 86) ;
+        margin-left: 1px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    .player-reg-5 .pl-5,.player-reg-5 .ml-3,.player-reg-5 .p-5{
+        padding:2rem !important ;
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+        /* margin-left: auto !important; */
+    }
+    .sport-wrapper .heading {
+        margin-top: 80px;
+        padding: 60px 50px;
+    }
+    .player-reg hr {
+        border: 2px solid rgb(199, 59, 59);
+        width: 260px;
+    }
+    .player-reg{
+        margin: auto;
+        /* margin: auto !important; */
+    }
+    .player-reg h1{
+        font-size: 30px;
+        /* margin: auto !important; */
+    }
+    .team-reg hr {
+        border: 2px solid rgb(199, 59, 59);
+        width: 260px;
+    }
+    .team-reg{
+        margin: auto;
+        /* margin: auto !important; */
+    }
+    .team-reg h1{
+        font-size: 30px;
+        /* margin: auto !important; */
+    }
+    .sub-section-1{
+        /* height: 300px; */
+        background: rgb(36, 33, 33);
+    }
+    .sub-section-1 .sub-wrap-1{
+        padding: 40px 10px;
+        text-align: center;
+        color: #fff;
+    }
+    .sub-wrap-1 hr{
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        border: 2px solid crimson;
+    }
+    .sub-wrap-1 h5{
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 45px;
+    }
+    .about-carousel{
+        height: 300px;
+        width: 280px;
+    }
+    .carousel-box{
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(231, 220, 220);
+        width: 280px;
+        padding: 1rem;
+        height: 240px;
+    }
+    .carousel-box .owl-dots{
+        top: 70%;
+        left: 25%;
+        position: absolute;
+    }
+    .carousel-box .owl-dots .owl-dot{
+        margin: 0rem !important;
+        zoom: 2;
+    }
+    .owl-dots .owl-dot:focus{
+        outline: none;
+        border: none;
+    }
+    .about-carousel-box p{
+        /* width:280px; */
+        font-size: 10px;
+        color: rgb(66, 65, 65);
+        padding:10px 40px;
+    }
+    .footer .about-img{
+        margin: auto;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
