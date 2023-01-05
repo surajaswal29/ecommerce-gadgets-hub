@@ -1,0 +1,87 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Montserrat;
+}
+*::selection {
+  background-color: rgba(235, 90, 90, 0.527);
+}
+.contain-b {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-wrap {
+  width: 900px !important;
+  height: 490px !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  padding: 50px !important;
+  border-radius: 5px;
+  border: 1px solid #e9e7e7 !important;
+}
+.bg-heading {
+  background-color: #f8f8f8;
+}
+.form-control::placeholder {
+  color: #b6b5b5;
+}
+.form-control:focus {
+  outline: none;
+  border-color: #e9e7e7;
+  box-shadow: none;
+}
+.inline-form {
+  display: flex;
+}
+.inline-form .form-control {
+  height: 40px;
+}
+.order-details .card-1 {
+  max-width: 500px !important;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.a-register {
+  text-align: right;
+}
+.header {
+  height: 100px;
+}
+.header > * {
+  position: relative;
+}
+.logout-btn {
+  /* background: rgb(168, 170, 29); */
+  display: flex;
+  padding-right: 100px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card-1 h6 {
+  font-size: 14px;
+}
+.head-nav .nav a {
+  color: #e9e7e7;
+  font-size: 14px;
+  padding: 16px;
+}
+table th,
+td {
+  border: 1px solid #cac9c9 !important;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+.table tr th {
+  font-family: inherit;
+  background-color: #3f3d3cc0;
+  color: #ffffff;
+}
+table tr td {
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  vertical-align: middle;
+}

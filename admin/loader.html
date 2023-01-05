@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo$_SERVER['PHP_SELF']; ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Kalam:wght@700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- JS files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+	        background:rgb(255, 255, 255);
+	        margin:0;
+            /* visibility: hidden; */
+        }
+        .centered{
+            width:400px;
+            height:400px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            background:rgb(255, 255, 255);
+            filter: blur(10px) contrast(20);
+        }
+        .blob-1,.blob-2{
+            width:70px;
+            height:70px;
+            position:absolute;
+            background:rgb(255, 0, 0);
+            border-radius:50%;
+            top:50%;left:50%;
+            transform:translate(-50%,-50%);
+        }
+        .blob-1{
+            left:20%;
+            animation:osc-l 2.5s ease infinite;
+        }
+        .blob-2{
+            left:80%;
+            animation:osc-r 2.5s ease infinite;
+            background:rgb(15, 241, 241);
+        }
+        @keyframes osc-l{
+            0%{left:20%;}
+            50%{left:50%;}
+            100%{left:20%;}
+        }
+        @keyframes osc-r{
+            0%{left:80%;}
+            50%{left:50%;}
+            100%{left:80%;}
+        }
+    </style>
+</head>
+<body>
+    <div class = "centered" id="preloader">
+        <div class = "blob-1"></div>
+        <div class = "blob-2"></div>
+    </div>
+    <div id="show">
+        <h1>Hello</h1>
+        <iframe src="https://youtube.com/" frameborder="0"></iframe>
+    </div>
+</body>
+<script>
+    $(window).on('load', function() { // makes sure the whole site is loaded 
+    $('#preloader').fadeOut(3000); // will first fade out the loading animation 
+     // will fade out the white DIV that covers the website. 
+    $('#show').delay(3000).css({'visibility':'visible'});
+})
+</script>
+</html>

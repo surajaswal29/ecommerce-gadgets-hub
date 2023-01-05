@@ -1,0 +1,235 @@
+@media(max-width:576px){
+    .log-1{display: flex; justify-content: center;}
+    .log-1 .logo{
+        margin-left: 0rem!important;
+        /* align-items: center; */
+    }
+    .bg-image{
+        height:auto !important;
+        /* height: 550px; */
+        overflow: hidden;
+        background:linear-gradient(150deg,rgba(255, 166, 0, 0.5) 10%,rgba(255, 255, 255, 0.137) 60%,rgba(7, 122, 7, 0.534)),
+        url('https://ik.imagekit.io/sweetgrapes2912/banner_0DLZWoUc7N.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .bg-image-1{
+        height: auto !important;
+    }
+    .pd-details{
+        padding: 3rem !important;
+    }
+    .product-details h1 {
+        font-size: 2rem;
+    }
+    .pd-details h2{
+        font-size: 1.5rem;
+    }
+    .pd-details h5 small{
+        font-size: 13px;
+    }
+    .img-logo{
+        margin:0px;
+    }
+    .site-nav-2 .navbar-nav{
+        justify-content: space-between !important;
+    }
+    .res-txtcnt{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .res-txtcnt h4{
+        text-align: center;
+        font-weight: 600;
+    }
+    .cart-pad-mar{
+        padding-left: 0.5rem!important;
+        padding-right: 0.5rem!important;
+        margin: 0rem!important;
+    }
+    .mobile-heading{
+        text-align: center;
+        font-size: 1.9rem;
+        padding: 8px;
+        font-weight: 600;
+    }
+    .mobile-form{
+        width: 320px !important;
+    }
+    .mobile-form-height{
+        height: 100vh !important;
+    }
+    .checkout>.row>* {
+        text-align: left;
+    }
+    .wrap{
+        display: none;
+        text-align: left;
+    }
+    .about-header h1{
+        font-size: 1.6rem;
+    }
+    .img-about-us{
+        width: 100%;
+        height: 100%;
+    }
+    .about-top{
+        padding-left: 0rem !important;
+    }
+    .about-para{
+        padding:40px;
+        padding-top: 1rem !important;
+    }
+    .mobile-cart-pad{
+        margin-top: 2rem !important;
+        margin-left: 0rem!important
+    }
+    .mobile-cart h2{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .sub-mobile-total h4{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .mobile-cart-product h3{
+        margin-top: 1.3rem;
+        font-size: 1.5rem;
+    }
+    .mobile-payment{
+        margin: 1.3rem !important;
+    }
+    .mobile-payment .checkout{
+        padding: 0rem !important;
+    }
+    .mobile-payment h1{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .mobile-payment-button{
+        text-align: unset !important;
+    }
+    .mobile-footer{
+        font-size: 0.8rem;
+    }
+    .profile-icon .profile-drop{
+        top:auto;
+        left:auto;
+    }
+    .hide-nav {
+        display: flex !important;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        margin: 0rem !important;
+    }
+    .tg-bt{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn:focus{
+        outline: none;
+        border-color: transparent;
+    }
+    .tg-bt .btn{
+        /* display: none; */
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        display: block;
+    }
+    .mobile-padding{
+        padding:0.2rem 2rem !important;
+    }
+    .mobile-padding>.margin-3{
+        margin-top: 1rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .margin-1{
+        margin-top: 8rem !important;
+    }
+    .head-font1{
+        font-size: 60px !important;
+    }
+    .quote{
+        padding-bottom: 3rem !important;
+    }
+    .quote h2{
+        font-weight:700;
+        text-shadow: 0 1px 0 #534f4f;
+        font-size:28px;
+        letter-spacing: 0.20rem;
+    }
+    .quote h5{
+        font-size: 14px;
+    }
+    .margin-3{
+        margin-top: 4rem !important;
+    }
+    .intro .py-5{
+        padding-bottom:1rem !important
+    }
+    .intro1{
+        padding: 0.5rem 2rem !important;
+        margin: auto !important;
+        margin-bottom: 3rem !important;
+    }
+    .para1 h3 {
+        font-size: 25px;
+        text-decoration: underline;
+        font-weight: 600;
+        text-align: center;
+    }
+    .para1 ul li {
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 4px;
+        /* overflow-x: visible; */
+    }
+    .album-card {
+        max-width: 250px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .blog .col-md-3{
+        max-width:250px;
+    }
+    .blog .ml-3{
+        margin: 1rem auto !important;
+    }
+    .mobile-contact{
+        padding:0.2rem 2rem !important;
+    }
+    .mobile-contact .form{
+        margin-left:0.2rem !important;
+        margin-right:0.2rem !important;
+    }
+    .footer-1{
+        padding: 0.2rem 1.5rem;
+    }
+    .hyper .nav{
+        display: block;
+    }
+    .hyper .nav .nav-item{
+        margin: 20px;
+    }
+    .footer-1 .nav{
+        display: block;
+    }
+    .footer-1 h6{
+        font-size: 20px !important;
+    }
+    .gallery .col-md-5{
+        max-width:140px;
+    }
+}
